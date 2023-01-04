@@ -1,0 +1,10 @@
+name: ViolanceType
+form: $/ppipm/pci/models/violancetype/fields.yaml
+modelClass: ppipm\pci\Models\ViolanceType
+defaultRedirect: ppipm/pci/violancetype
+create:
+    redirect: 'ppipm/pci/violancetype/update/:id'
+    redirectClose: ppipm/pci/violancetype
+update:
+    redirect: ppipm/pci/violancetype
+    redirectClose: ppipm/pci/violancetype

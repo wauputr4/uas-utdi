@@ -1,0 +1,10 @@
+name: Lapor
+form: $/ppipm/pci/models/lapor/fields.yaml
+modelClass: ppipm\pci\Models\Lapor
+defaultRedirect: ppipm/pci/lapor
+create:
+    redirect: 'ppipm/pci/lapor/update/:id'
+    redirectClose: ppipm/pci/lapor
+update:
+    redirect: ppipm/pci/lapor
+    redirectClose: ppipm/pci/lapor

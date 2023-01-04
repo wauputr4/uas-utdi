@@ -1,0 +1,32 @@
+plugin:
+    name: 'ppipm.pci::lang.plugin.name'
+    description: 'ppipm.pci::lang.plugin.description'
+    author: 'PP IPM'
+    icon: oc-icon-info-circle
+    homepage: ''
+permissions:
+    superadmin:
+        tab: 'Super Admin'
+        label: 'Super Admin'
+    fasil:
+        tab: Fasilitator
+        label: Fasilitator
+navigation:
+    main-menu-item:
+        label: Master
+        url: /
+        icon: icon-database
+        sideMenu:
+            side-menu-item:
+                label: 'Tipe Kekerasan'
+                url: ppipm/pci/violancetype
+                icon: icon-list-alt
+    main-menu-item2:
+        label: Kasus
+        url: /
+        icon: icon-th-list
+        sideMenu:
+            side-menu-item:
+                label: Pelaporan
+                url: ppipm/pci/lapor
+                icon: icon-warning

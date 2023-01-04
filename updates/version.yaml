@@ -1,0 +1,32 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table ppipm_pci_kekerasan_type'
+    - builder_table_create_ppipm_pci_kekerasan_type.php
+1.0.3:
+    - 'Updated table ppipm_pci_kekerasan_type'
+    - builder_table_update_ppipm_pci_violance_types.php
+1.0.4:
+    - 'Created table ppipm_pci_lapor'
+    - builder_table_create_ppipm_pci_lapor.php
+1.0.5:
+    - 'Updated table ppipm_pci_lapor'
+    - builder_table_update_ppipm_pci_lapor.php
+1.0.6:
+    - 'Updated table ppipm_pci_lapor'
+    - builder_table_update_ppipm_pci_lapor_2.php
+1.0.7:
+    - 'Updated table ppipm_pci_lapor'
+    - builder_table_update_ppipm_pci_lapor_3.php
+1.0.8:
+    - 'Updated table ppipm_pci_lapor'
+    - builder_table_update_ppipm_pci_lapor_4.php
+1.0.9:
+    - 'Created table ppipm_pci_lapor_pelaku'
+    - builder_table_create_ppipm_pci_lapor_pelaku.php
+1.0.10:
+    - 'Created table ppipm_pci_lapor_violance'
+    - builder_table_create_ppipm_pci_lapor_violance.php
+1.0.11:
+    - 'Created table ppipm_pci_lapor_status'
+    - builder_table_create_ppipm_pci_lapor_status.php

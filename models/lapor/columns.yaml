@@ -1,0 +1,52 @@
+columns:
+    id:
+        label: id
+        type: number
+    reporter:
+        label: reporter
+        type: text
+        searchable: false
+        sortable: true
+    name:
+        label: name
+        type: text
+    gender:
+        label: gender
+        type: number
+    age:
+        label: age
+        type: number
+    from:
+        label: from
+        type: text
+    chronology:
+        label: chronology
+        type: text
+        invisible: true
+    effort:
+        label: effort
+        type: text
+        invisible: true
+    step_id:
+        label: step
+        type: number
+        sortable: true
+    status_id:
+        label: status
+        type: number
+        sortable: true
+    wa:
+        label: wa
+        type: text
+        searchable: true
+    mail:
+        label: mail
+        type: text
+        searchable: true
+    created_at:
+        label: created_at
+        type: datetime
+        invisible: false
+    user_id:
+        label: user_id
+        type: number

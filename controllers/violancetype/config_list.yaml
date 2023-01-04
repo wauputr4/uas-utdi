@@ -1,0 +1,12 @@
+list: $/ppipm/pci/models/violancetype/columns.yaml
+modelClass: ppipm\pci\Models\ViolanceType
+title: ViolanceType
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+recordsPerPage: 20
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'ppipm/pci/violancetype/update/:id'

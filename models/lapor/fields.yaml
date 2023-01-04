@@ -1,0 +1,5 @@
+fields:
+    reporter:
+        label: Reporter
+        span: auto
+        type: text
